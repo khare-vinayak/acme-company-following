@@ -1,13 +1,31 @@
 <html>
   <head>
 <style>
+  select{
+    display:flex;
+    justify-content: space-around;
+   margin:1rem;
+   padding:1 rem;
+  }
+  .selected{
+    background-color: tomato;
+  }
+  li{
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    padding:1rem;
+    margin:1rem;
 
+    border-bottom: 1px black solid;
+  }
 </style>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js'></script>
-    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src='https://unpkg.com/babel-standalone@6/babel.min.js'></script>
     <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-router-dom/umd/react-router-dom.min.js"></script>
+    <script src='https://unpkg.com/react-router-dom/umd/react-router-dom.min.js'></script>
     <script src="app.js" type="text/babel" defer > </script>
   </head>
   <body>
